@@ -45,6 +45,12 @@ main {
     padding:10px;
     border-radius:10px;
 }
+article {
+    background-color:rgb(40, 40, 40);
+    font-family: 'JetBrains Mono';
+    padding:10px;
+    border-radius:10px;
+}
 .content {
     max-width: 64%;
     margin:auto;
