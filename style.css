@@ -1,62 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/octarine');
 body {
     align-items: center;
-    background-color: black;
+    background-image: url("assets/black-orchid.png");
+    background-color: rgb(7, 8, 8);
     font-family: 'JetBrains Mono';
     color:white;
 }
 h1 {
-    color:white;
-    font-family: 'JetBrains Mono';
+    color:rgb(193, 193, 193);
+    font-family: 'Octarine';
     font-size: 240%;
+    font-weight: 300;
+    transition-duration: 0.2s;
+    cursor:pointer;
+}
+h1:hover {
+    color:white;
+}
+h2 {
+    color:white;
+    font-family: 'Roboto Serif';
+    font-weight: 300;
+}
+h3 {
+    color:rgb(185, 185, 185);
+    font-family: 'Roboto Serif';
+    font-weight: 100;
 }
 p {
     color: lightgray;
-    font-family: 'JetBrains Mono';
+    font-family: 'Open Sans';
     font-size: 16px;
 }
+header {
+    background-color: #1e293c1b;
+    padding:5px;
+    padding-left: 15px;
+    border-radius: 100px;
+    backdrop-filter: blur(1px);
+    width:50%;
+    margin-left:5%;
+}
 .button {
-    background-color:darkslategray;
+    background-color:rgb(38, 51, 61);
+    color:rgb(160, 160, 160);
     font-family: 'JetBrains Mono';
     padding: 8px 32px;
     text-align: center;
     font-size: 16px;
-    border-radius:4px;
+    border-radius:16px;
+    border-color: gray;
     margin: 4px 2px;
     transition-duration: 0.2s;
     cursor:pointer;
 }
 .button1 {
-    background-color:darkslategrey;
-    color:white;
+    background-color:rgb(38, 49, 61);
+    color:rgb(218, 218, 218);
 }
 .button1:hover {
-    background-color: slategray;
+    background-color: rgb(25, 29, 38);
     color:white;
+    border-color: rgb(96, 96, 96);
 }
 nav {
-    background-color:rgb(26, 28, 30);
-    padding:10px;
-    border-radius:10px;
+    background-color:#1d222a;
+    padding:6px;
+    border-radius:50px;
+    backdrop-filter: blur(1px);
 }
 main {
-    background-color:rgb(20, 20, 20);
+    background-color:rgba(24, 24, 24, 0.5);
     font-family: 'JetBrains Mono';
     padding:10px;
     border-radius:10px;
+    max-width: 90%;
+    margin:auto;
+    backdrop-filter: blur(1px);
 }
 article {
-    background-color:rgb(40, 40, 40);
+    background-color:rgba(24, 24, 24, 0.5);
     font-family: 'JetBrains Mono';
     padding:10px;
     border-radius:10px;
+    max-width: 90%;
+    margin:auto;
+    backdrop-filter: blur(1px);
+}
+article:hover {
+    background-color:rgb(32, 32, 32, 0.5);
+    backdrop-filter: blur(1px);
 }
 .content {
     max-width: 64%;
     margin:auto;
 }
 img {
-    border: 1px solid white;
+    
     border-radius: 4px;
     padding:5px;
     height: 160px;
