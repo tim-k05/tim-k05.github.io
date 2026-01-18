@@ -8,7 +8,7 @@ body {
     color:white;
 }
 h1 {
-    color:rgb(193, 193, 193);
+    color:rgb(233, 233, 233);
     font-family: 'Octarine';
     font-size: 240%;
     font-weight: 300;
@@ -17,64 +17,64 @@ h1 {
 }
 h1:hover {
     color:white;
+     text-shadow:1px 1px 10px #a8ad62, 1px 1px 10px #a8ad62;
 }
 h2 {
     color:white;
-    font-family: 'Roboto Serif';
+    font-family: 'JetBrains Mono';
     font-weight: 300;
+    font-size:150%;
 }
 h3 {
     color:rgb(185, 185, 185);
-    font-family: 'Roboto Serif';
+    font-family: 'JetBrains Mono';
     font-weight: 100;
 }
 p {
     color: lightgray;
-    font-family: 'Open Sans';
+    font-family: 'JetBrains Mono';
     font-size: 16px;
+}
+mark {
+    background-color: #1f1f1f;
+    color:white;
+}
+mark2{
+    background-color: #282828;
+    color:lightgray;
 }
 header {
     margin:-10px;
-    width:50%;
     margin-left:0;
 }
 .button {
-    background-color:rgb(38, 51, 61);
+    background-color:rgb(19, 28, 35);
     font-family: 'JetBrains Mono';
-    padding: 8px 32px;
     text-align: center;
     font-size: 16px;
-    margin: 4px 2px;
     transition-duration: 0.2s;
     cursor:pointer;
 }
 .button1 {
-    background-color:rgb(38, 49, 61);
-    color:rgb(218, 218, 218);
+    background-color:rgb(120, 155, 38);
+    color:rgb(0, 0, 0);
 }
 .button1:hover {
-    background-color: rgb(25, 29, 38);
-    color:white;
-    border-color: rgb(96, 96, 96);
+    background-color: rgb(0, 35, 131);
+    color:rgb(255, 255, 255);
 }
 nav {
     padding-bottom:6px;
 }
 main {
-    background-color:rgba(24, 24, 24, 0.5);
     font-family: 'JetBrains Mono';
-    padding:10px;
-    border-radius:10px;
-    margin:auto;
-    backdrop-filter: blur(1px);
+    padding-top:2px;
+    margin-top:5px;
 }
 article {
     background-color:rgba(24, 24, 24, 0.5);
     font-family: 'JetBrains Mono';
     padding:10px;
-    border-radius:10px;
-    margin:auto;
-    backdrop-filter: blur(1px);
 }
 .content {
     max-width: 80%;
