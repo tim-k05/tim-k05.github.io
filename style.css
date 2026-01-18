@@ -3,8 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/octarine');
 body {
     align-items: center;
-    background-image: url("assets/black-orchid.png");
-    background-color: rgb(7, 8, 8);
+    background-color: rgb(0, 0, 0);
     font-family: 'JetBrains Mono';
     color:white;
 }
@@ -35,23 +34,16 @@ p {
     font-size: 16px;
 }
 header {
-    background-color: #1e293c1b;
-    padding:5px;
-    padding-left: 15px;
-    border-radius: 100px;
-    backdrop-filter: blur(1px);
+    margin:-10px;
     width:50%;
-    margin-left:5%;
+    margin-left:0;
 }
 .button {
     background-color:rgb(38, 51, 61);
-    color:rgb(160, 160, 160);
     font-family: 'JetBrains Mono';
     padding: 8px 32px;
     text-align: center;
     font-size: 16px;
-    border-radius:16px;
-    border-color: gray;
     margin: 4px 2px;
     transition-duration: 0.2s;
     cursor:pointer;
@@ -66,17 +58,13 @@ header {
     border-color: rgb(96, 96, 96);
 }
 nav {
-    background-color:#1d222a;
-    padding:6px;
-    border-radius:50px;
-    backdrop-filter: blur(1px);
+    padding-bottom:6px;
 }
 main {
     background-color:rgba(24, 24, 24, 0.5);
     font-family: 'JetBrains Mono';
     padding:10px;
     border-radius:10px;
-    max-width: 90%;
     margin:auto;
     backdrop-filter: blur(1px);
 }
@@ -85,16 +73,11 @@ article {
     font-family: 'JetBrains Mono';
     padding:10px;
     border-radius:10px;
-    max-width: 90%;
     margin:auto;
     backdrop-filter: blur(1px);
 }
-article:hover {
-    background-color:rgb(32, 32, 32, 0.5);
-    backdrop-filter: blur(1px);
-}
 .content {
-    max-width: 64%;
+    max-width: 80%;
     margin:auto;
 }
 img {
