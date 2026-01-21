@@ -39,9 +39,14 @@ mark {
     background-color: #1f1f1f;
     color:white;
 }
-mark2{
+mark2 {
     background-color: #282828;
     color:lightgray;
+}
+a:hover, a:visited, a:link, a:active {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  color:lightgray;
 }
 header {
     margin:-10px;
